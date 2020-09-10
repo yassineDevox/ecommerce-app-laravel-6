@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5ba3c43b30208743a81257a6e7b8539",
+    "content-hash": "da21a10063dc0ba4cfd786ac1aca8728",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -335,27 +335,27 @@
         },
         {
             "name": "hardevine/shoppingcart",
-            "version": "2.7.1",
+            "version": "2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hardevine/LaravelShoppingcart.git",
-                "reference": "4ea0f3219ec2bbdd0b3b44eb943857cc9d9607b0"
+                "reference": "2fc6eff895ae6d94978125f6bc65aceadc4873c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hardevine/LaravelShoppingcart/zipball/4ea0f3219ec2bbdd0b3b44eb943857cc9d9607b0",
-                "reference": "4ea0f3219ec2bbdd0b3b44eb943857cc9d9607b0",
+                "url": "https://api.github.com/repos/hardevine/LaravelShoppingcart/zipball/2fc6eff895ae6d94978125f6bc65aceadc4873c5",
+                "reference": "2fc6eff895ae6d94978125f6bc65aceadc4873c5",
                 "shasum": ""
             },
             "require": {
-                "illuminate/events": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|^6",
-                "illuminate/session": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|^6",
-                "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|^6"
+                "illuminate/events": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|^6|^7|^8",
+                "illuminate/session": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|^6|^7|^8",
+                "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|^6|^7|^8"
             },
             "require-dev": {
                 "mockery/mockery": "~0.9.0",
                 "orchestra/testbench": "~3.1",
-                "phpunit/phpunit": "~5.0|~6.0|~7.0"
+                "phpunit/phpunit": "~5.0 || ~6.0 || ~7.0"
             },
             "suggest": {
                 "gloudemans/notify": "Simple flash notifications for Laravel"
@@ -391,7 +391,7 @@
                 "laravel",
                 "shoppingcart"
             ],
-            "time": "2019-11-28T16:00:39+00:00"
+            "time": "2020-09-06T07:46:29+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -433,6 +433,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -479,6 +480,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -825,6 +827,7 @@
                 "markdown",
                 "table"
             ],
+            "abandoned": "league/commonmark",
             "time": "2019-09-26T13:28:33+00:00"
         },
         {
